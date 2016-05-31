@@ -10,8 +10,8 @@ services:
     image: selenium/standalone-firefox-debug
     container_name: firefox
     ports:
-      - "4444:4445"
-      - "5900:5901"
+      - "4445:444"
+      - "5901:5900"
   calendar:
     build:
       context: ./docker
